@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
-    uses: pagel-s/termcraft/.github/workflows/package-feeds.yml@b43d80dc22174c899631b4c10b4be4b9b4ea34c7
+    uses: pagel-s/termcraft/.github/workflows/package-feeds.yml@7ca6f741bc4cdd9be0c38ba535c5df98235cfebb
     with:
       kind: homebrew
-      source_revision: b43d80dc22174c899631b4c10b4be4b9b4ea34c7
+      source_revision: 7ca6f741bc4cdd9be0c38ba535c5df98235cfebb
