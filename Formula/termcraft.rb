@@ -1,18 +1,18 @@
 class Termcraft < Formula
   desc "Terminal pixel-art sandbox survival game"
   homepage "https://github.com/pagel-s/termcraft"
-  version "0.2.0-beta.1"
+  version "0.2.0"
   license "AGPL-3.0-only"
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/pagel-s/termcraft/releases/download/v0.2.0-beta.1/termcraft-0.2.0-beta.1-aarch64-apple-darwin.tar.gz"
-      sha256 "38affa47a83a043b2ad53844ce9654a1014f8fab565dab5fb449a7c436c224f3"
+      url "https://github.com/pagel-s/termcraft/releases/download/v0.2.0/termcraft-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "13cfaee23baa82130d3c910f7a4b05a05608c1caf23c4863b76e9ee3811067c4"
     end
     on_intel do
-      url "https://github.com/pagel-s/termcraft/releases/download/v0.2.0-beta.1/termcraft-0.2.0-beta.1-x86_64-apple-darwin.tar.gz"
-      sha256 "985182e09ddc93d2c2a7fde57527d5d71207d0d5b131d7f69e40deb4f33fb94c"
+      url "https://github.com/pagel-s/termcraft/releases/download/v0.2.0/termcraft-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "141720b40d604aac02e8fd897e812d1e00663e5669e8be8480f3e4f12b158a87"
     end
   end
 
